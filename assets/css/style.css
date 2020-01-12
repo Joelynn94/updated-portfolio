@@ -13,6 +13,10 @@ a {
     color: white;
 }
 
+img {
+    width: 100%;
+}
+
 .container {
     text-align: center;
     width: 95%;
@@ -23,17 +27,56 @@ a {
 }
 
 .large {
-    margin-top: 2rem;
+    margin-top: 5rem;
+    height: 100vh;
 }
 
 .name {
     margin-bottom: 1.25rem;
     color: #ff274e;
     letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.description {
+    font-size: 30px;
 }
 
 .line {
     color: #ff274e;
     width: 100%;
-    margin: 3rem 0px;
+    margin: 3rem 0 3rem 0;
+}
+
+.info-heading {
+    line-height: 30px;
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 20px;
+    font-weight: 300;   
+}
+
+.info-connect {
+    margin: 2rem;
+}
+
+.linkedin {
+    color: #0077B5;
+    margin-left: 1rem;
+    font-size: 24px;
+}
+
+.github {
+    font-size: 24px;
+}
+
+.phone {
+    margin-left: 1rem;
+    font-size: 24px;
+}
+
+.mail {
+    margin-left: 1rem;
+    font-size: 24px;
+    color: #ff274e;
 }
