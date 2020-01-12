@@ -1,15 +1,22 @@
-.services {
+.projects {
     padding-top: 4em;
     padding-bottom: 4em;
   }
   
-  .services__heading {
+  .project-heading {
     font-size: 3.5em;
-    color: rgba(117, 121, 149, 0.5)
+    color: rgba(117, 121, 149, 0.5);
+    margin-bottom: 2rem;
+  }
+
+  .project-title {
+    font-size: 1.25em;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
   }
   
-  .services__card {
-    background-color: #2A2A2E;
+  .project-card {
+    background-color: #101010;
     color: white;
     border-top: 10px solid #2D94F4;
     border-radius: 10px;
@@ -20,12 +27,18 @@
     max-width: 30em;
   }
   
-  .services__card:hover {
+  .project-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
     border-top: 10px solid #92B8D1;
   }
+
+  .project-buttons {
+    margin-top: -4px;
+    display: flex;
+    justify-content: space-between;
+  }
   
-  .card__content {
+  .card-content {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -37,8 +50,4 @@
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
-  }
-  
-  .fad {
-    font-size: 3em;
   }
