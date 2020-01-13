@@ -127,7 +127,7 @@ img {
     cursor: pointer;
     opacity: 0.8;
     border-radius: 5px;
-    font-size: .75rem;
+    font-size: 1rem;
 }
 
 .btn:hover {
@@ -137,10 +137,6 @@ img {
 .btn-50 {
     width: 50%;
     border-radius: 0;   
-}
-
-.btn-100 {
-    width: 30%;  
 }
 
 .btn-primary {

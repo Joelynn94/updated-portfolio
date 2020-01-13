@@ -7,7 +7,9 @@
     <link rel="shortcut icon" type ="image/png" href="./assets/img/Component.png">
     <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/441a588260.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/project.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
@@ -158,7 +160,46 @@
 
             </div>
         </section>
-    </main>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+            <h1 class="contact-heading">CONTACT ME.</h1>
+    
+            <form action="" method="post">
+                <fieldset>
+                <ul>
+                    <div class="contact__container">
+                    <label for="name"><i class="fal fa-user contact__icon"></i></label>
+                    <input class="contact__input" type="text" placeholder="e.g. Alex Smith" id="name" name="user_name">
+                    </div>
+                    <div class="contact__container">
+                    <label for="email"><i class="fal fa-envelope contact__icon"></i></label>
+                    <input class="contact__input" type="text" placeholder="e.g. alexsmith@gmail.com" id="email" name="user_email">
+                    </div>
+                    <div class="contact__container">
+                    <label for="message"><i class="fal fa-comment-lines contact__icon"></i></label>
+                    <textarea class="contact__input" type="text" placeholder="Type your message here..." id="message" name="user_message"></textarea>
+                    </div>
+                </ul>
+    
+                <button class="btn btn-primary btn-50" type="submit">Submit</button>
+                </fieldset>
+            </form>
+            </div>
+        </section>
+        <!-- End Contact Section -->
+    
+        </main>
+        <!-- End Main Content -->
+    
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p class="footer__copy">Designed and Developed by Joseph Lynn.</p>
+            </div>
+        </footer>
+        <!-- End Footer -->
 
     <script src="assets/js/main.js"></script>
 </body>
