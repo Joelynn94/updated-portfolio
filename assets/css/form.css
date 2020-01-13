@@ -2,6 +2,19 @@
 Form Elements 
 ================*/
 
+.contact {
+  background-color:#F8FAFA;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.contact-heading {
+  font-size: 3.25em;
+  color: rgba(117, 121, 149, 0.5);
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
 form > fieldset > ul {
     list-style-type: none;
     text-align: left;
@@ -33,7 +46,7 @@ form > fieldset > ul {
   /* Style the form icons */
   .contact__icon {
     padding: 15px;
-    background: dodgerblue;
+    background: #ff274e;
     color: white;
     min-width: 4em;
     text-align: center;

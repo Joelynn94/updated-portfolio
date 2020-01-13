@@ -7,7 +7,7 @@
 body {
     background-color: #2A2A2E;
     color: white;
-    font-family: 'Roboto Mono', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -70,6 +70,7 @@ img {
 
 .description {
     font-size: 30px;
+    font-weight: 700;
 }
 
 .line {
@@ -83,7 +84,7 @@ img {
     margin: 0 auto;
     max-width: 500px;
     font-size: 20px;
-    font-weight: 400;   
+    font-weight: 600;   
 }
 
 .info-connect {
@@ -126,6 +127,7 @@ img {
     cursor: pointer;
     opacity: 0.8;
     border-radius: 5px;
+    font-size: .75rem;
 }
 
 .btn:hover {
@@ -137,10 +139,21 @@ img {
     border-radius: 0;   
 }
 
+.btn-100 {
+    width: 30%;  
+}
+
 .btn-primary {
-    background-color: #2D94F4;
+    background-color: #ff274e;
 }
 
 .btn-secondary {
     background-color: #737894;
+}
+
+.footer {
+    background-color:#2A2A2E;
+    color:white;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
