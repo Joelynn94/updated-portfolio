@@ -17,6 +17,7 @@
 }
 
 .project-card {
+  position: relative;
   background-color: #101010;
   color: white;
   border-top: 10px solid #ff274e;
@@ -25,7 +26,7 @@
   transition: 0.3s;
   margin: auto;
   margin-bottom: 3em;
-  max-width: 30em;
+  width: 30em;
 }
 
 .project-card:hover {

@@ -21,6 +21,11 @@ img {
     width: 100%;
 }
 
+.project-img > img {
+    height: 20em;
+    object-fit: fill;
+}
+
 .background-img {
     position: relative;
     background-image:  url("../img/laptop-computer.jpg");
@@ -171,5 +176,10 @@ img {
 
     .info-connect_social {
         margin-top: 0;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
