@@ -44,7 +44,7 @@ img {
     height: 100%;
     top: 0;
     left: 0;
-    opacity: 0.6;
+    opacity: 0.8;
     z-index: 0;
 } 
 
@@ -85,15 +85,15 @@ img {
 .line {
     color: #ff274e;
     width: 100%;
-    margin: 3rem 0 3rem 0;
+    margin: 2rem 0 1rem 0;
 }
 
 .info-heading {
     line-height: 30px;
     margin: 0 auto;
     max-width: 500px;
-    font-size: 20px;
-    font-weight: 600;   
+    font-size: 18px;
+    font-weight: 500; 
 }
 
 .info-connect {
@@ -178,8 +178,75 @@ img {
         margin-top: 0;
     }
 
+}
+
+@media screen and (min-width: 920px) {
+    .project-card {
+        max-width: 25em;
+    }
+
+    .project-img > img {
+        height: 15em;
+        object-fit: fill;
+    }
+
     .projects-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .line {
+        margin: 3rem 0 3rem 0;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project-card {
+        max-width: 30em;
+    }
+
+    .project-img > img {
+        height: 20em;
+        object-fit: fill;
+    }
+
+    .info-heading {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1340px) {
+    .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .project-card {
+        max-width: 25em;
+    }
+
+    .project-img > img {
+        height: 15em;
+        object-fit: fill;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .project-card {
+        max-width: 30em;
+    }
+
+    .project-img > img {
+        height: 20em;
+        object-fit: fill;
     }
 }

@@ -26,7 +26,7 @@
   transition: 0.3s;
   margin: auto;
   margin-bottom: 3em;
-  width: 30em;
+  max-width: 30em;
 }
 
 .project-card:hover {
