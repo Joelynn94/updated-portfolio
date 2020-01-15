@@ -61,7 +61,7 @@ form > fieldset > ul {
   }
   
   .contact__input:focus {
-    border: 2px solid #2D94F4;
+    border: 2px solid #ff274e;
     background: white;
   }
   
