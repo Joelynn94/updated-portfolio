@@ -148,6 +148,11 @@ img {
     color: #0071C5;
 }
 
+.resume {
+    margin-left: 1rem;
+    font-size: 20px;
+}
+
 .about {
     background-color:#F8FAFA;
     padding-top: 4em;
@@ -234,6 +239,7 @@ img {
     .about-right {
         margin-top: 3rem;
         max-width: 600px;
+        margin-left: 1rem;
     }
 
     .about-left {
