@@ -27,13 +27,13 @@ img {
 }
 
 .project-img > img {
-    height: 20em;
+    height: 18em;
     object-fit: fill;
 }
 
 .about-img{
     max-width: 30em;
-    height: 20rem;
+    height: 18rem;
     background-color: #2A2A2E;
     border-radius: 10px;
     border-top: 10px solid #ff274e;
