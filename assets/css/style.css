@@ -28,7 +28,7 @@ img {
 
 .project-img > img {
     height: 18em;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .about-img {
